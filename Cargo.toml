@@ -1,0 +1,10 @@
+[package]
+name = "round_ties_to_positive_infinity"
+version = "0.1.0"
+authors = ["CrLF0710 <crlf0710@gmail.com>"]
+license = "Apache-2.0/MIT"
+description = "Provide round_ties_to_positive_infinity() functions to float types."
+repository = "https://github.com/crlf0710/round_ties_to_positive_infinity"
+documentation = "https://docs.rs/round_ties_to_positive_infinity"
+
+[dependencies]
