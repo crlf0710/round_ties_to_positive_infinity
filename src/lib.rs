@@ -13,7 +13,7 @@ macro_rules! rt2pi_impl {
                     x
                 } else {
                     let z = (2.0 * x - y).floor();
-                    z * x.signum() // Should use copysign, but not stably-available
+                    z.abs() * x.signum() // Should use copysign, but not stably-available
                 }
             }
         }

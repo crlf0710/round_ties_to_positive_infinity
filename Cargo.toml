@@ -1,6 +1,6 @@
 [package]
 name = "round_ties_to_positive_infinity"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["CrLF0710 <crlf0710@gmail.com>"]
 license = "Apache-2.0/MIT"
 description = "Provide round_ties_to_positive_infinity() functions to float types."
